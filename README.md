@@ -3,6 +3,9 @@ A CLI tool to chat with Claude Sonnet in the CLI
 
 I'm a beginner and got sick of leaving the terminal to ask questions in my browser.  I honestly know little to noting about Rust. I only used Rust because I kept running into dead ends with python and I just wanted something simple  There are better solutions but I havnt had any luck getting them to work.  So if you see room for improvements, just let me know.  I'm including The whold project directory.  But the "claude" file is all you need.  
 
+make sure to add your API key to your shell.  In my case I am using zsh so I added this to my .zshrc
+```export ANTHROPIC_API_KEY='your-api-key-here```
+
 Move the "claude" file to usr/local/bin (or any other folder in your $PATH)
 ```mv path/to/claude usr/local/bin```
 
